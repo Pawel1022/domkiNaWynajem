@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	color: #6d747b;
+	line-height: 1;
+	font-weight: 400;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.lazy-img{
+	filter: blur(3px);
+}
+
+
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+	font-weight: 700;
+	color: #343a40;
+	letter-spacing: -0.5px;
+}
+
+.heading-primary {
+	font-size: 5.2rem;
+	line-height: 1.05;
+	margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+	font-size: 4.4rem;
+	line-height: 1.2;
+	margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+	font-size: 3rem;
+	line-height: 1.2;
+	margin-bottom: 1.6rem;
+}
+
+.subheading {
+	display: block;
+	color: #68ade3;
+	font-size: 1.6rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 1.6rem;
+	letter-spacing: 0.75px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 120rem;
+	padding: 0 3.2rem;
+}
+
+.container--center {
+	text-align: center;
+}
+
+.grid {
+	display: grid;
+	row-gap: 9.6rem;
+	column-gap: 6.4rem;
+	margin-bottom: 6.4rem;
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--center-v {
+	align-items: center;
+}
+
+.margin-right-sm {
+	margin-right: 1.2rem !important;
+}
+
+.section-padding {
+	padding: 3.2rem 0 !important;
+}

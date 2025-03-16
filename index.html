@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nowoczesne Domki na Wynajem &mdash; Twoje Idealne Wakacje</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/general.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script defer nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo-link">DomkiNaWynajem.pl</a>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a href="#about-us" class="main-nav-link">O nas</a></li>
+        <li><a href="#houses" class="main-nav-link">Domki</a></li>
+        <li><a href="#advantages" class="main-nav-link">Wyposażenie</a></li>
+        <li><a href="#reviews" class="main-nav-link">Opinie</a></li>
+        <li><a href="#reservations" class="main-nav-link">Rezerwacje</a></li>
+        <li><a href="#contact" class="main-nav-link">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav"><ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button>
+  </header>
+  <main>
+    <section class="section-hero" id="about-us">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">Ciesz się wyjątkowym wypoczynkiem w naszych nowoczesnych domkach.</h1>
+          <p class="hero-description">Zapraszamy do skorzystania z naszej oferty, która łączy komfort, nowoczesność i
+            bliskość natury. Nasze domki są idealne na rodzinne wakacje, romantyczny weekend we dwoje czy aktywny
+            wypoczynek z przyjaciółmi. Oferujemy domki w różnych lokalizacjach, dostosowane do różnych potrzeb i
+            preferencji.</p>
+        </div>
+        <div class="hero-img-box">
+          <source srcset="./img/hero.webp" type="image/webp">
+          <source srcset="./img/herocomp.png" type="image/png">  
+          <picture><img class="hero-img" src="./img/hero.webp" alt="hero-baner"></picture>
+        </div>
+      </div>
+    </section>
+    <section class="section-houses" id="houses">
+      <div class="container">
+        <span class="subheading">Luksus i Komfort w Każdym Detalu</span>
+        <h2 class="heading-secondary">Nasze Domki</h2>
+      </div>
+      <div class="container grid grid--2-cols grid--center-v">
+        <div class="house-text-box">
+          <p class="house-mark">01</p>
+          <h3 class="heading-tertiary">Domek nad Jeziorem</h3>
+          <p class="house-description">Zanurz się w spokoju i pięknie otaczającej natury. Idealne na wędkowanie,
+            pływanie i relaks przy zachodzie słońca.</p>
+        </div>
+        <div class="house-img-box">
+          <img src="./img/houses/lakeCutted-lq.jpg" alt="Domek z oferty nad jeziorem" class="house-img" data-img="./img/houses/lakeCutted.jpg">
+        </div>
+        <div class="house-img-box">
+          <img src="./img/houses/mountainCutted-lq.jpg" alt="Domek z oferty w górach" class="house-img" data-img="./img/houses/mountainCutted.jpg">
+        </div>
+        <div class="house-text-box house-text-box--middle">
+          <p class="house-mark">02</p>
+          <h3 class="heading-tertiary">Domek w górach</h3>
+          <p class="house-description">Dla miłośników górskich wędrówek i zapierających dech w piersiach widoków. Ciesz
+            się bliskością szlaków turystycznych i zimowych atrakcji.</p>
+        </div>
+        <div class="house-text-box">
+          <p class="house-mark">03</p>
+          <h3 class="heading-tertiary">Domek w Lesie</h3>
+          <p class="house-description">Ucieknij od miejskiego zgiełku i zrelaksuj się w ciszy lasu. Doskonałe miejsce na
+            obcowanie z przyrodą i spacery.</p>
+        </div>
+        <div class="house-img-box">
+          <img src="./img/houses/forestCutted-lq.jpg" alt="Domek z oferty w lesie" class="house-img" data-img="./img/houses/forestCutted.jpg">
+        </div>
+        <div class="house-img-box">
+          <img src="./img/houses/seaCutted-lq.jpg" alt="Domek z oferty nad morzem" class="house-img" data-img="./img/houses/seaCutted.jpg">
+        </div>
+        <div class="house-text-box house-text-box--end">
+          <p class="house-mark">04</p>
+          <h3 class="heading-tertiary">Domek nad Morzem</h3>
+          <p class="house-description">Odkryj uroki wybrzeża i ciesz się piaszczystymi plażami. Perfekcyjne na letnie
+            wakacje i sporty wodne.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="container container--center">
+        <span class="subheading">Wszystko, czego potrzebujesz, aby poczuć się jak w domu</span>
+        <h2 class="heading-secondary">Wyposażenie</h2>
+      </div>
+
+      <div class="container grid grid--3-cols">
+        <div class="advantages-box advantages-box--first">
+          <div> <img src="./img/gallery/kitchen600x800-lq.jpg"
+              alt="Nowoczesna w pełni wyposażona kuchnia do twojej dyspozycji" class="advantages-img" data-img="./img/gallery/kitchen600x800.jpg"></div>
+          <div class="advantages-content">
+            <p class="advantages-title">Nowoczesna Kuchnia</p>
+            <p class="advantages-description">Pełne wyposażenie, abyś mógł przygotować swoje ulubione posiłki.</p>
+          </div>
+        </div>
+        <div class="advantages-box advantages-box--second">
+          <div> <img src="./img/gallery/bedroom600x800-lq.jpg" alt="Przestronna sypialnia z dużym wygodnym łóżkiem"
+              class="advantages-img" data-img="./img/gallery/bedroom600x800.jpg"></div>
+          <div class="advantages-content">
+            <p class="advantages-title">Komfortowe Sypialnie</p>
+            <p class="advantages-description">Przytulne i stylowe wnętrza gwarantujące spokojny sen.</p>
+          </div>
+        </div>
+        <div class="advantages-box advantages-box--third">
+          <div><img src="./img/gallery/tarrace600x800-lq.jpg" alt="Taras z miejscem na grilla" class="advantages-img" data-img="./img/gallery/tarrace600x800.jpg">
+          </div>
+          <div class="advantages-content">
+            <p class="advantages-title">Taras z ogrodem</p>
+            <p class="advantages-description">Miejsce na grillowanie i odpoczynek na świeżym powietrzu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews-section" id="reviews">
+      <div class="reviews-container">
+        <span class="subheading">Zadowolenie naszych klientów jest dla nas najważniejsze</span>
+        <h2 class="heading-secondary">Opinie Naszych Gości</h2>
+        <div class="reviews-box">
+          <figure class="review">
+            <img src="./img/customers/woman-1-128x128.jpg" alt="Anna K" class="review-img">
+            <blockquote class="review-text">
+              "Spędziliśmy cudowny tydzień w domku nad jeziorem. Wszystko było doskonale zorganizowane, a domki są
+              przepiękne i bardzo komfortowe."
+            </blockquote>
+            <span class="review-author">&mdash;Anna K. Warszawa</span>
+
+          </figure>
+          <figure class="review">
+            <img src="./img/customers/men-1-128x128.jpg" alt="Marek W" class="review-img">
+            <blockquote class="review-text">
+              "Domki w górach to prawdziwy raj dla miłośników natury. Lokalizacja jest idealna, a widoki z tarasu
+              zapierają dech w piersiach. Bardzo polecam!"
+            </blockquote>
+            <span class="review-author">&mdash;Marek W. Kraków</span>
+
+          </figure>
+          <figure class="review">
+            <img src="./img/customers/woman-2-128x128.jpg" alt="Ewa B" class="review-img">
+            <blockquote class="review-text">
+              "Domki w górach to prawdziwy raj dla miłośników natury. Lokalizacja jest idealna, a widoki z tarasu
+              zapierają dech w piersiach. Bardzo polecam!"
+            </blockquote>
+            <span class="review-author">&mdash;Ewa B. Gdańsk</span>
+          </figure>
+          <figure class="review">
+            <img src="./img/customers/woman-3-128x128.jpg" alt="Karolina S." class="review-img">
+            <blockquote class="review-text">
+              "Domki w lesie to idealne miejsce na ucieczkę od codziennego zgiełku. Cisza, spokój i pełen komfort.
+              Wszystko, czego potrzebowaliśmy"
+            </blockquote>
+            <span class="review-author">&mdash;Karolina S. Wrocław</span>
+
+          </figure>
+        </div>
+      </div>
+
+      <div class="photos-box">
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery1-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery1-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery2-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery2-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery3-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery3-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery4-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery4-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery5-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery5-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery6-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery6-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery7-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery7-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery8-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery8-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery9-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery9-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery10-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery10-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery11-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery11-800x800.jpg">
+        </figure>
+        <figure class="photo-item">
+          <img src="./img/reviews-gallery/gallery12-800x800-lq.jpg" alt="Zdjęcie z galeri" data-img="./img/reviews-gallery/gallery12-800x800.jpg">
+        </figure>
+       
+      </div>
+    </section>
+    <section class="section-reservation" id="reservations">
+      <div class="container container--center">
+        <span class="subheading">Zarezerwuj swój wymarzony domek już dziś!</span>
+        <h2 class="heading-secondary">Rezerwacje</h2>
+        <p class="section-info-description">Skontaktuj się z nami telefonicznie lub przez formularz rezerwacyjny na
+          stronie. Oferujemy elastyczne terminy i atrakcyjne ceny. Zarezerwuj teraz i ciesz się niezapomnianymi chwilami
+          w naszych nowoczesnych domkach na wynajem.</p>
+        <div class="reservation-cta">
+
+          <form class="reservation-form">
+            <div>
+              <label for="email">Twój adres E-mail</label>
+              <input type="email" id="email" required placeholder="example@io.pl">
+            </div>
+            <div>
+              <label for="phone">Twój numer telefonu</label>
+              <input type="tel" id="phone" required placeholder="000-000-000">
+            </div>
+
+            <div>
+              <label for="adaults">Liczba dorosłych</label>
+              <input type="number" id="adaults" min="1" max="8" value="2" required>
+            </div>
+            <div>
+              <label for="kids">Liczba dzieci do 16 roku życia</label>
+              <input type="number" id="kids" min="0" max="8" value="1" required>
+            </div>
+
+
+
+            <div>
+              <label for="arrival-date">Wybierz datę przyjazdu</label>
+              <input type="date" id="arrival-date" required>
+            </div>
+            <div>
+              <label for="departure-date">Wybierz datę wyjazdu</label>
+              <input type="date" id="departure-date" required>
+            </div>
+
+            <div> <label for="select-where">W której lokalizacji planujesz swój odpoczynek ?</label>
+              <select id="select-where" name="select-where" required>
+                <option value="">Wybierz jedną z opcji</option>
+                <option value="mediolan">Włochy Mediolan</option>
+                <option value="rzym">Włochy Rzym</option>
+                <option value="baška">Chorwacja Baška</option>
+                <option value="wiedeń">Austria Wiedeń</option>
+                <option value="vaduz">Liechtenstein Vaduz</option>
+                <option value="aspen">USA Aspen Colorado</option>
+              </select>
+            </div>
+
+            <button type="submit" class="reservation-form-btn">Zarezerwuj teraz</button>
+          </form>
+
+          <div class="reservation-cta-img-box" role="img" aria-label="House"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section-contact" id="contact">
+      <div class="container">
+        <span class="subheading">Masz pytania? Skontaktuj się z nami!</span>
+        <h2 class="heading-secondary">Kontakt</h2>
+        <div class="grid grid--2-cols">
+          <div class="social-links-box">
+            <p class="contact-title">Zapraszamy do odwiedzenia naszych social media, aby być na bieżąco z
+              nowościami i promocjami!</p>
+
+            <ul class="social-links">
+              <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"
+                    class="social-icon"></ion-icon></a></li>
+              <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"
+                    class="social-icon"></ion-icon></a></li>
+              <li class="social-item"><a href="#" class="social-link">
+                  <ion-icon name="logo-tiktok" class="social-icon"></ion-icon>
+                </a></li>
+              <li class="social-item"><a href="#" class="social-link">
+                  <ion-icon name="logo-instagram" class="social-icon"></ion-icon></ion-icon>
+                </a></li>
+            </ul>
+          </div>
+
+          <div class="address-box">
+            <p class="contact-title">Skontaktuj się z nami !</p>
+            <address class="contact">
+              <p class="contact-address">ul. Wypoczynkowa 1, 00-001 Warszawa</p>
+              <a class="social-link" href="tel:+48 123 456 789">+48 123 456 789</a>
+              <a class="social-link" href="mailto:kontakt@nowoczesnedomki.pl">kontakt@nowoczesnedomki.pl</a>
+
+            </address>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container container--center">
+      <p class="copyright-text">Nowoczesne Domki na Wynajem
+        Wszystkie prawa zastrzeżone &copy; <span class="copyright-text">2024</span></p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
