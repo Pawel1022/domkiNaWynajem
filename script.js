@@ -75,3 +75,13 @@ const imgObserver = new IntersectionObserver(loadImg, {
 imgTargets.forEach(img => imgObserver.observe(img))
 
 console.log(imgTargets)
+
+const dynamicYear = () => {
+	const year = new Date().getFullYear()
+	const yearEl = document.querySelector('.copyright-year')
+	yearEl.textContent = year
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+	dynamicYear()
+})
